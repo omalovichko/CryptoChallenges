@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA4DBE8B1FF922FC00C52F92 /* Set1SingleByteXORCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4DBE8A1FF922FC00C52F92 /* Set1SingleByteXORCipher.swift */; };
+		FA4DBE8D1FF924D800C52F92 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4DBE8C1FF924D800C52F92 /* Utils.swift */; };
+		FA6AD3B21FF1A52A002CC3C0 /* CryptoSwift.framework.dSYM in Carthage Resources */ = {isa = PBXBuildFile; fileRef = FA6AD3B11FF1A52A002CC3C0 /* CryptoSwift.framework.dSYM */; };
+		FA6AD3B61FF1A595002CC3C0 /* CryptoSwift.framework in Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = FA6AD3B51FF1A594002CC3C0 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA6AD3B81FF1A664002CC3C0 /* Set1FixedXOR.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6AD3B71FF1A664002CC3C0 /* Set1FixedXOR.swift */; };
+		FAF982541FF19E3000F4D4C4 /* Set1HexToBase64.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF982531FF19E3000F4D4C4 /* Set1HexToBase64.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA6AD3B01FF1A51C002CC3C0 /* Carthage Resources */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				FA6AD3B21FF1A52A002CC3C0 /* CryptoSwift.framework.dSYM in Carthage Resources */,
+			);
+			name = "Carthage Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6AD3B41FF1A589002CC3C0 /* Carthage Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FA6AD3B61FF1A595002CC3C0 /* CryptoSwift.framework in Carthage Frameworks */,
+			);
+			name = "Carthage Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA4DBE8A1FF922FC00C52F92 /* Set1SingleByteXORCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set1SingleByteXORCipher.swift; sourceTree = "<group>"; };
+		FA4DBE8C1FF924D800C52F92 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		FA6AD3B11FF1A52A002CC3C0 /* CryptoSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = CryptoSwift.framework.dSYM; path = Carthage/Build/Mac/CryptoSwift.framework.dSYM; sourceTree = "<group>"; };
+		FA6AD3B51FF1A594002CC3C0 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/Mac/CryptoSwift.framework; sourceTree = "<group>"; };
+		FA6AD3B71FF1A664002CC3C0 /* Set1FixedXOR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set1FixedXOR.swift; sourceTree = "<group>"; };
+		FAF9824B1FF19DAB00F4D4C4 /* CryptoChallengesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoChallengesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF9824F1FF19DAB00F4D4C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF982531FF19E3000F4D4C4 /* Set1HexToBase64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set1HexToBase64.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF982481FF19DAB00F4D4C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA8FF61A1FF1A211006DEEB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA6AD3B11FF1A52A002CC3C0 /* CryptoSwift.framework.dSYM */,
+				FA6AD3B51FF1A594002CC3C0 /* CryptoSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAF982341FF19D7900F4D4C4 = {
+			isa = PBXGroup;
+			children = (
+				FAF9824C1FF19DAB00F4D4C4 /* CryptoChallengesTests */,
+				FAF9823E1FF19D7A00F4D4C4 /* Products */,
+				FA8FF61A1FF1A211006DEEB8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF9823E1FF19D7A00F4D4C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF9824B1FF19DAB00F4D4C4 /* CryptoChallengesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF9824C1FF19DAB00F4D4C4 /* CryptoChallengesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA4DBE8C1FF924D800C52F92 /* Utils.swift */,
+				FAF9824F1FF19DAB00F4D4C4 /* Info.plist */,
+				FAF982531FF19E3000F4D4C4 /* Set1HexToBase64.swift */,
+				FA6AD3B71FF1A664002CC3C0 /* Set1FixedXOR.swift */,
+				FA4DBE8A1FF922FC00C52F92 /* Set1SingleByteXORCipher.swift */,
+			);
+			path = CryptoChallengesTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF9824A1FF19DAB00F4D4C4 /* CryptoChallengesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF982501FF19DAB00F4D4C4 /* Build configuration list for PBXNativeTarget "CryptoChallengesTests" */;
+			buildPhases = (
+				FAF982471FF19DAB00F4D4C4 /* Sources */,
+				FAF982481FF19DAB00F4D4C4 /* Frameworks */,
+				FAF982491FF19DAB00F4D4C4 /* Resources */,
+				FA6AD3B41FF1A589002CC3C0 /* Carthage Frameworks */,
+				FA6AD3B01FF1A51C002CC3C0 /* Carthage Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoChallengesTests;
+			productName = CryptoChallengesTests;
+			productReference = FAF9824B1FF19DAB00F4D4C4 /* CryptoChallengesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF982351FF19D7900F4D4C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Oleksandr Malovichko";
+				TargetAttributes = {
+					FAF9824A1FF19DAB00F4D4C4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAF982381FF19D7900F4D4C4 /* Build configuration list for PBXProject "CryptoChallenges" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAF982341FF19D7900F4D4C4;
+			productRefGroup = FAF9823E1FF19D7A00F4D4C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF9824A1FF19DAB00F4D4C4 /* CryptoChallengesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF982491FF19DAB00F4D4C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF982471FF19DAB00F4D4C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF982541FF19E3000F4D4C4 /* Set1HexToBase64.swift in Sources */,
+				FA4DBE8B1FF922FC00C52F92 /* Set1SingleByteXORCipher.swift in Sources */,
+				FA6AD3B81FF1A664002CC3C0 /* Set1FixedXOR.swift in Sources */,
+				FA4DBE8D1FF924D800C52F92 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAF982421FF19D7A00F4D4C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF982431FF19D7A00F4D4C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		FAF982511FF19DAB00F4D4C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = CryptoChallengesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = om.CryptoChallengesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		FAF982521FF19DAB00F4D4C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = CryptoChallengesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = om.CryptoChallengesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF982381FF19D7900F4D4C4 /* Build configuration list for PBXProject "CryptoChallenges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF982421FF19D7A00F4D4C4 /* Debug */,
+				FAF982431FF19D7A00F4D4C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF982501FF19DAB00F4D4C4 /* Build configuration list for PBXNativeTarget "CryptoChallengesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF982511FF19DAB00F4D4C4 /* Debug */,
+				FAF982521FF19DAB00F4D4C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF982351FF19D7900F4D4C4 /* Project object */;
+}
